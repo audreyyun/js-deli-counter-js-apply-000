@@ -1,8 +1,8 @@
-function takeANumber(lineOfCust, cust) { //lineOfCust is an array
-  lineOfCust.push(cust);  //add last customer
-  var placeInLine = lineOfCust.length;
-  return `Welcome, ${cust}. You are number ${placeInLine} in line.`; //return last customer
-}
+// function takeANumber(lineOfCust, cust) { //lineOfCust is an array
+//   lineOfCust.push(cust);  //add last customer
+//   var placeInLine = lineOfCust.length;
+//   return `Welcome, ${cust}. You are number ${placeInLine} in line.`; //return last customer
+// }
 
 
 function nowServing (line) { //should take in line array & return first person in line then remove
