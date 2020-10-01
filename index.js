@@ -4,6 +4,15 @@
 //   return `Welcome, ${cust}. You are number ${placeInLine} in line.`; //return last customer
 // }
 
+function takeANumber (lineOfCust) { 
+  var counter = lineOfCust.length; 
+  counter++;
+  var number = counter + 1;
+  
+  return 'Hi, you are number ${number}'
+  
+}
+
 
 function nowServing (line) { //should take in line array & return first person in line then remove
 
